@@ -1,6 +1,6 @@
 context:
   name: pixi-to-conda-lock
-  version: "0.4.2"
+  version: "0.4.3"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pixi_to_conda_lock-${{ version }}.tar.gz
-  sha256: 1bedba7332530ed124d2495745e5ff9dc445d3a408cb7dd347594b29b8d18b35
+  sha256: a54174591fa8bfb764e955ba9addd22e6e99120198c48f4b44c31c12d17d4738
 
 build:
   number: 0
