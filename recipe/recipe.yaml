@@ -28,7 +28,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - pyyaml
-    - py-rattler
+    - py-rattler >=0.24,<0.25
 
 tests:
   - python:
